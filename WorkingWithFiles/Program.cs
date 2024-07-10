@@ -17,7 +17,7 @@ namespace WorkingWithFiles
             try
             {
                 // Вызываем метод Cleanup, чтобы удалить все неиспользуемые файлы и папки
-                Cleanup(folderPath, TimeSpan.FromMinutes(1));
+                Cleanup(folderPath, TimeSpan.FromMinutes(30));
                 Console.WriteLine($"Cleanup completed for folder: {folderPath}");
             }
             catch (Exception ex)
