@@ -11,6 +11,7 @@ namespace WorkingWithFiles
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter the path to the desired folder");
             string folderPath = Console.ReadLine();
 
             try
